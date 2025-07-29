@@ -3,6 +3,8 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Paper](https://img.shields.io/badge/paper-WMT_2025-b31b1b.svg)](https://link-to-your-paper.com)
 
+![ACReFOSC — playful robots learning from many MT outputs and one human reference](acrefosc-banner.png)
+
 This is A Companion REpository to the French OLDI Seed Corpus (ACReFOSC). This repository provides the full set of machine-generated translation candidates and their final post-edited reference, designed to support preference optimization research in machine translation and automatic post-editing.
 
 This repository contains two main files located in the `/data` directory:
