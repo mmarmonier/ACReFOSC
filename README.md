@@ -36,7 +36,7 @@ This file is a single JSON array where each object links a segment ID to the pro
 
 ## 💻 Code Examples
 
-Here is a Python example demonstrating how to load these files and combine them to create a preference dataset suitable for methods like DPO (Direct Preference Optimization)The baseline approach (`all`) is to create a preference pair for every machine translation that differs from the post-edited reference. However, one can employ more advanced strategies by using the provided Quality Estimation (QE) scores (COMET_QE_Score and MetricX_QE_Score) to select more informative "losing" examples. For instance, one might select the rejected translation with the highest quality score (`hardest`) or the lowest quality score (`easiest`). The script below implements all of these strategies.
+Here is a Python example demonstrating how to load these files and combine them to create a preference dataset suitable for methods like DPO (Direct Preference Optimization). The "baseline" approach (`all`) is to create a preference pair for every machine translation that differs from the post-edited reference. However, one can employ more advanced strategies by using the provided Quality Estimation (QE) scores (COMET_QE_Score and MetricX_QE_Score) to select more informative "losing" examples. For instance, one might select the rejected translation with the highest quality score (`hardest`) or the lowest quality score (`easiest`). The script below implements these strategies.
 
 ```python
 import json
