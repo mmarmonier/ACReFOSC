@@ -1,9 +1,7 @@
 # ACReFOSC — A Companion Repository to the French OLDI Seed Corpus
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Paper](https://img.shields.io/badge/paper-WMT_2025-b31b1b.svg)](https://link-to-your-paper.com)
-
-![ACReFOSC — playful robots learning from many MT outputs and one human reference](acrefosc-banner.png)
+[![Paper](https://img.shields.io/badge/paper-WMT_2025-b31b1b.svg)](https://arxiv.org/abs/2508.02290)
 
 This is A Companion REpository to the French OLDI Seed Corpus (ACReFOSC). This repository provides the full set of machine-generated translation candidates and their final post-edited reference, designed to support preference optimization research in machine translation and automatic post-editing.
 
@@ -159,10 +157,15 @@ print(f"Dataset saved to '{output_filename}'")
 ```
 ## 📜 Citation
 
-If you use this dataset in your research, please cite our paper:
-
 ```bibtex
-@inproceedings{
+@misc{marmonier2025frenchversionoldiseed,
+      title={A French Version of the OLDI Seed Corpus}, 
+      author={Malik Marmonier and Benoît Sagot and Rachel Bawden},
+      year={2025},
+      eprint={2508.02290},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.02290}, 
 }
 ```
 
