@@ -36,7 +36,10 @@ This file is a single JSON array where each object links a segment ID to the pro
 
 ## 💻 Code Examples
 
-Here is a Python example demonstrating how to load these files and combine them to create a preference dataset suitable for methods like DPO (Direct Preference Optimization). The "baseline" approach (`all`) is to create a preference pair for every machine translation that differs from the post-edited reference. However, one can employ more advanced strategies by using the provided Quality Estimation (QE) scores (COMET_QE_Score and MetricX_QE_Score) to select more informative "losing" examples. For instance, one might select the rejected translation with the highest quality score (`hardest`) or the lowest quality score (`easiest`). The script below implements these strategies.
+We provide a Jupyter notebook (`ACReFOSC_demo.ipynb`) that demonstrates how to load the data and generate a preference dataset. You can run it directly in Google Colab <a target="_blank" href="https://colab.research.google.com/github/mmarmonier/ACReFOSC/blob/main/ACReFOSC_demo.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>.
+
+Alternatively, the core Python code from the notebook is also provided below for reference. It shows how to load the files and combine them to create a preference dataset suitable for methods like DPO (Direct Preference Optimization). The "baseline" approach (`all`) is to create a preference pair for every machine translation that differs from the post-edited reference. However, one can employ more advanced strategies by using the provided Quality Estimation (QE) scores (COMET_QE_Score and MetricX_QE_Score) to select more informative "losing" examples. For instance, one might select the rejected translation with the highest quality score (`hardest`) or the lowest quality score (`easiest`). The script below implements these strategies.
 
 ```python
 import json
