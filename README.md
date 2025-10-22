@@ -1,7 +1,7 @@
 # ACReFOSC — A Companion Repository to the French OLDI Seed Corpus
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Paper](https://img.shields.io/badge/paper-WMT_2025-b31b1b.svg)](https://arxiv.org/abs/2508.02290)
+[![Paper](https://img.shields.io/badge/paper-WMT_2025-b31b1b.svg)](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.80.pdf)
 
 This is A Companion REpository to the French OLDI Seed Corpus (ACReFOSC). This repository provides the full set of machine-generated translation candidates and their final post-edited reference, designed to support preference optimization research in machine translation and automatic post-editing.
 
@@ -161,14 +161,15 @@ print(f"Dataset saved to '{output_filename}'")
 ## 📜 Citation
 
 ```bibtex
-@misc{marmonier2025frenchversionoldiseed,
-      title={A French Version of the OLDI Seed Corpus}, 
-      author={Malik Marmonier and Benoît Sagot and Rachel Bawden},
-      year={2025},
-      eprint={2508.02290},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.02290}, 
+@InProceedings{marmonier-sagot-bawden:2025:WMT,
+  author    = {Marmonier, Malik  and  Sagot, Beno{\^\i}t  and  Bawden, Rachel},
+  title     = {A French Version of the OLDI Seed Corpus},
+  booktitle      = {Proceedings of the Tenth Conference on Machine Translation (WMT 2025)},
+  month          = {November},
+  year           = {2025},
+  address        = {Suzhou, China},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {1048--1060}
 }
 ```
 
